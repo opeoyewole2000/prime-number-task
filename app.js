@@ -38,3 +38,5 @@ let getPrime = (n)=> {
 }
 
 getPrime(10);
+
+exports.getPrime =getPrime;
