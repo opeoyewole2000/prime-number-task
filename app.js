@@ -3,7 +3,7 @@ let getPrime = (n)=> {
   let arrayPrimes = [];
   let primeCounter = 0;
   for(let i=0;i<=n;i++){
-    if (i === 0 || i === 1 || i===2 ){
+    if ( i===2 ){
       arrayPrimes.push(i);
     }
     else{
@@ -37,6 +37,6 @@ let getPrime = (n)=> {
   
 }
 
-getPrime(10);
+getPrime(100);
 
-exports.getPrime =getPrime;
+exports.getPrime = getPrime;
